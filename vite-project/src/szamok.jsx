@@ -1,11 +1,18 @@
 import TableDataComponent from "./TableDataComponent";
+import beszed from "./data.js"
 
 export default function SzamTabla() {
-  const szamok = Array.from({ length: 100 }, (_, i) => i + 1);
+  const szamok = []
+
+  beszed.data.forEach(elem =>{
+    elem.split(" ").forEach(szo =>{
+        szamok.push(szo)
+    })
+  })
 
   const chunked = [];
-  for (let i = 0; i < szamok.length; i += 10) {
-    chunked.push(szamok.slice(i, i + 10));
+  for (let i = 0; i < szamok.length; i += 5) {
+    chunked.push(szamok.slice(i, i + 5));
   }
 
 return (
@@ -15,6 +22,9 @@ return (
         {sor.map((szo, szoIndex) => (
           <TableDataComponent key={szoIndex} data={szo}></TableDataComponent>
         ))}
+        <td>
+            <button onClick={console.log}>Törlés</button>
+        </td>
       </tr>
     ))}
   </>

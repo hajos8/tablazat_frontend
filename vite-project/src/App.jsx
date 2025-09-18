@@ -6,7 +6,10 @@ import SzamTabla from "./szamok.jsx";
 
 
 export default class App extends React.Component{
-  
+  state = {
+    del: []
+  }
+
   render(){
     return(
       <table className="table">
