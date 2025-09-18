@@ -1,0 +1,4 @@
+export default {
+    data: ["„Nyilvánvalóan végighazudtuk az utolsó másfél-két évet. Teljesen világos volt, hogy amit mondunk, az nem igaz. Annyival vagyunk túl az ország lehetőségein, hogy mi azt nem tudtuk korábban elképzelni, hogy ezt a Magyar Szocialista Párt és a liberálisok közös kormányzása valaha is megteszi.”",
+        "„Amit meg lehetett csinálni az elmúlt egy hónapban, azt megtettük. Amit az azt megelőző hónapokban titokban meg lehetett csinálni úgy, hogy nehogy a választási kampány utolsó heteiben előkerüljenek olyan papírok, hogy mire készülünk, azt megtettük. Úgy őriztük a titkot, hogy miközben tudtuk és ti is tudtátok, hogyha el fog jönni a választási győzelem, utána nagyon neki kell állni, hogy soha ilyen problémánk nem volt.”"]
+}
